@@ -5,7 +5,7 @@ Into AI agents and the infrastructure underneath them — TypeScript / Python, o
 ## 🔨 Selected open-source contributions
 
 - **[agentconnect](https://github.com/agentconnect-md/agentconnect)** — a multi-agent platform bridging IM to AI coding agents. Hardened the sandbox shim's Git exec policy: replaced the blanket `git config` admission with an exact managed-credential allowlist ([#2894](https://github.com/agentconnect-md/agentconnect/pull/2894), merged).
-- **[reticle](https://github.com/reticlehq/reticle)** — fixed request/response body matching order on multiplexed network endpoints, so a matching response body no longer masks a mismatching request body ([#1500](https://github.com/reticlehq/reticle/pull/1500), in review).
+- **[evalscope](https://github.com/modelscope/evalscope)** — a streamlined framework for efficient LLM/VLM evaluation and benchmarking. Fixed Terminal-Bench Codex agent compatibility: skipped the unsupported `max_turns` parameter for Harbor 0.24.0's Codex schema ([#1846](https://github.com/modelscope/evalscope/pull/1846), merged).
 
 ## 📊 GitHub Stats
 
